@@ -1,0 +1,142 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Raleway';
+   min-width: 425px;
+}
+
+.container {
+   background: url("images/pexels-tima-miroshnichenko-5428267\ 1.png") no-repeat;
+   background-size: cover;
+   width: 100%;
+}
+
+.technology {
+   max-width: 460px;
+   padding: 15%;
+}
+
+.technology p {
+   font-size: 16px;
+   line-height: 150%;
+   letter-spacing: -0.03em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   opacity: 0.9;
+}
+
+@media (max-width:700px) {
+   .technology p {
+      font-size: 12px;
+   }
+}
+
+.technology h4 {
+   font-size: 38px;
+   line-height: 111%;
+   letter-spacing: -0.03em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+
+@media (max-width:700px) {
+   .technology h4 {
+      font-size: 22px;
+   }
+}
+
+.technology-items {
+   box-sizing: border-box;
+   display: flex;
+}
+
+@media (max-width:700px) {
+   .technology-items {
+      flex-direction: column;
+   }
+}
+
+.tech-item {
+   position: relative;
+   background: #FFFFFF;
+   width: 25%;
+}
+
+@media (max-width:700px) {
+   .tech-item {
+      width: 100%;
+   }
+}
+
+.tech-item:hover {
+   background: #0536FC;
+}
+
+.block {
+   width: 56%;
+   padding: 14%;
+   font-size: 16px;
+   line-height: 150%;
+   letter-spacing: -0.03em;
+   color: #000000;
+   padding-bottom: 35%;
+}
+
+@media (min-width:700px) and (max-width:965px) {
+   .block {
+      font-size: 12px;
+      padding-bottom: 40%;
+   }
+}
+
+.number {
+   font-weight: 300;
+   text-transform: uppercase;
+   opacity: 0.7;
+   padding-bottom: 7%;
+   margin: 0;
+}
+
+.name {
+   font-weight: 700;
+   text-transform: uppercase;
+   padding-bottom: 16%;
+   margin: 0;
+}
+
+.content {
+   font-weight: 400;
+   opacity: 0.6;
+   margin: 0;
+}
+
+.tech-item:hover .number {
+   color: white;
+}
+
+.tech-item:hover .name {
+   color: white;
+}
+
+.tech-item:hover .content {
+   color: white;
+}
+
+.bottom {
+   box-sizing: border-box;
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   padding: 35px;
+}
+.icon {
+   width: 30px;
+   height: 30px;
+}
+
+.tech-item:hover .bottom {
+   background-color: white;
+   color: #0536FC;
+}
